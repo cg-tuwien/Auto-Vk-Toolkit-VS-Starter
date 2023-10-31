@@ -16,6 +16,10 @@ Follow these steps:
 5. In Visual Studio, select the project `my-avk-project` as startup project
 6. Build and run 
 
+If your program runs and produces the following rendering result, everything has been set up properly:
+
+![expected rendering output, same as hello_world](https://github.com/cg-tuwien/Auto-Vk-Toolkit/blob/master/docs/images/example_hello_world.png)
+
 ## Hints
 
 ### Use Auto-Vk-Toolkit's latest features
