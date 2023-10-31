@@ -18,13 +18,23 @@ Follow these steps:
 
 ## Hints
 
-Use Auto-Vk-Toolkit's [`development`] branch to use the latest features and updates from [Auto-Vk](https://github.com/cg-tuwien/Auto-Vk) and [Auto-Vk-Toolkit](https://github.com/cg-tuwien/Auto-Vk-Toolkit).     
+### Use Auto-Vk-Toolkit's latest features
+
+Use Auto-Vk-Toolkit's [`development`](https://github.com/cg-tuwien/Auto-Vk-Toolkit/tree/development) branch to use the latest features and updates from [Auto-Vk](https://github.com/cg-tuwien/Auto-Vk) and [Auto-Vk-Toolkit](https://github.com/cg-tuwien/Auto-Vk-Toolkit).     
 To switch to the `development` branch, follow these steps: 
 - `cd Auto-Vk-Toolkit` (navigate into the submodule)
 - `git fetch`
 - `git switch development`
 - `git submodule update --recursive` 
 
+### Post Build Helper tool
+
 Auto-Vk-Toolkit uses a _Post Build Helper_ tool for shader compilation and asset deployment. Once you build or run your project, you'll find a `PBH` icon in your tray area. Read more about it in the [Post Build Helper]() documentation section.
+
+### CMake-based projects
+
+A starter template for CMake-based projects based on Auto-Vk-Toolkit is available at [JolifantoBambla/Auto-Vk-Toolkit-Starter](https://github.com/cg-tuwien/Auto-Vk-Toolkit/tree/development).
+
+### Further information
 
 Should you run into any problems, please consult Auto-Vk-Toolkit's [FAQs, Known Issues, Troubleshooting](https://github.com/cg-tuwien/Auto-Vk-Toolkit/tree/master#faqs-known-issues-troubleshooting) section. If that doesn't help, consider creating an issue in one of the repositories.
