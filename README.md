@@ -22,10 +22,10 @@ Follow these steps:
 
 Use Auto-Vk-Toolkit's [`development`](https://github.com/cg-tuwien/Auto-Vk-Toolkit/tree/development) branch to use the latest features and updates from [Auto-Vk](https://github.com/cg-tuwien/Auto-Vk) and [Auto-Vk-Toolkit](https://github.com/cg-tuwien/Auto-Vk-Toolkit).     
 To switch to the `development` branch, follow these steps: 
-- `cd Auto-Vk-Toolkit` (navigate into the submodule)
-- `git fetch`
-- `git switch development`
-- `git submodule update --recursive` 
+1. `cd Auto-Vk-Toolkit` (navigate into the submodule)
+2. `git fetch`
+3. `git switch development`
+4. `git submodule update --recursive` 
 
 ### Post Build Helper tool
 
@@ -33,7 +33,7 @@ Auto-Vk-Toolkit uses a _Post Build Helper_ tool for shader compilation and asset
 
 ### CMake-based projects
 
-A starter template for CMake-based projects based on Auto-Vk-Toolkit is available at [JolifantoBambla/Auto-Vk-Toolkit-Starter](https://github.com/cg-tuwien/Auto-Vk-Toolkit/tree/development).
+A starter template for CMake-based projects based on Auto-Vk-Toolkit is available at [JolifantoBambla/Auto-Vk-Toolkit-Starter](https://github.com/JolifantoBambla/Auto-Vk-Toolkit-Starter).
 
 ### Further information
 
