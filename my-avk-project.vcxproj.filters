@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="assets">
+      <UniqueIdentifier>{24240a51-8fdb-478f-8c1c-27cbca7adc3f}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{1d345cf5-0451-42e0-83a8-6a3f5a7203ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="precompiled_headers">
+      <UniqueIdentifier>{a498e4bc-580a-49d7-9a8e-ec57803fdcd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{e418dddb-2289-4e42-bcca-3fd989232303}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="precompiled_headers\cg_stdafx.cpp">
+      <Filter>precompiled_headers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\a_triangle.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\a_triangle.vert">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="precompiled_headers\cg_stdafx.hpp">
+      <Filter>precompiled_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="precompiled_headers\cg_targetver.hpp">
+      <Filter>precompiled_headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
